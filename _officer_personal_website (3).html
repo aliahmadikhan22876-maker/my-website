@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Ahmadi | Finance Officer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      /* Modern professional navy + teal + gold accent */
+      --primary:#0f172a;
+      --secondary:#0ea5e9;
+      --accent:#f59e0b;
+      --bg:#f8fafc;
+      --text:#1f2937;
+      --card:#ffffff;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+    body{
+      background:linear-gradient(180deg,#f8fafc,#eef2ff);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:white;
+      padding:90px 20px;
+      text-align:center;
+      position:relative;
+      overflow:hidden;
+    }
+
+    header::after{
+      content:"";
+      position:absolute;
+      width:300px;
+      height:300px;
+      background:rgba(255,255,255,0.08);
+      border-radius:50%;
+      top:-80px;
+      right:-80px;
+    }
+
+    header h1{font-size:48px;font-weight:700;letter-spacing:1px;}
+    header p{font-size:18px;margin-top:10px;opacity:0.9;}
+
+    .hero-btn{
+      margin-top:25px;
+      display:inline-block;
+      padding:12px 28px;
+      background:var(--accent);
+      color:#111827;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:700;
+      transition:0.3s;
+    }
+
+    .hero-btn:hover{transform:scale(1.05);}
+
+    nav{
+      position:sticky;
+      top:0;
+      background:rgba(255,255,255,0.9);
+      backdrop-filter:blur(10px);
+      display:flex;
+      justify-content:center;
+      gap:25px;
+      padding:15px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.05);
+      z-index:1000;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:var(--primary);
+      font-weight:600;
+      transition:0.3s;
+      position:relative;
+    }
+
+    nav a::after{
+      content:"";
+      position:absolute;
+      width:0;
+      height:2px;
+      bottom:-5px;
+      left:0;
+      background:var(--secondary);
+      transition:0.3s;
+    }
+
+    nav a:hover::after{width:100%;}
+
+    section{
+      max-width:1100px;
+      margin:60px auto;
+      padding:0 20px;
+    }
+
+    h2{
+      font-size:28px;
+      margin-bottom:20px;
+      color:var(--primary);
+      border-left:5px solid var(--accent);
+      padding-left:12px;
+    }
+
+    .card{
+      background:var(--card);
+      padding:28px;
+      border-radius:18px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+      margin-bottom:20px;
+      transition:0.3s;
+    }
+
+    .card:hover{transform:translateY(-3px);}
+
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+    }
+
+    .skill{
+      background:linear-gradient(135deg,#e0f2fe,#dbeafe);
+      color:var(--primary);
+      padding:10px 15px;
+      border-radius:20px;
+      font-size:14px;
+      font-weight:600;
+      border:1px solid #bfdbfe;
+    }
+
+    ul{padding-left:20px;}
+
+    .contact-box p{margin:8px 0;}
+
+    .btn{
+      display:inline-block;
+      padding:10px 20px;
+      background:var(--primary);
+      color:white;
+      border-radius:10px;
+      text-decoration:none;
+      margin-top:10px;
+    }
+
+    footer{
+      text-align:center;
+      padding:25px;
+      background:var(--primary);
+      color:white;
+      margin-top:60px;
+    }
+
+    @media(max-width:768px){
+      header h1{font-size:34px;}
+      nav{flex-wrap:wrap;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ali Ahmadi</h1>
+  <p>Finance Officer</p>
+  <a href="#contact" class="hero-btn">Contact Me</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Key Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#training">Training</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>Background</h2>
+  <div class="card">
+    <p>Motivated and detail-oriented Finance Officer candidate with a strong foundation in financial procedures, administrative management, procurement processes, and office coordination. Skilled in budgeting, financial reporting, cash handling, day-to-day expense management, and document control. Possess hands-on experience in procurement operations, including preparing and processing Requests for Quotations (RFQs), issuing Purchase Orders (POs), coordinating with vendors, supporting bid evaluations, and maintaining procurement records. Adept at ensuring compliance with organizational policies and donor requirements. Experienced in digital payment operations, vendor communication, invoice verification, and procurement documentation management. Proficient in QuickBooks and Microsoft Office Suite.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Key Skills</h2>
+  <div class="card skills">
+    <div class="skill">Budget Preparation & Monitoring</div>
+    <div class="skill">Financial Reporting</div>
+    <div class="skill">Cash Management</div>
+    <div class="skill">Bank Reconciliation</div>
+    <div class="skill">Procurement & RFQs</div>
+    <div class="skill">Inventory Management</div>
+    <div class="skill">QuickBooks</div>
+    <div class="skill">MS Office</div>
+    <div class="skill">Communication</div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Work Experience</h2>
+
+  <div class="card">
+    <h3>Finance Assistance – Tagheer Mosbat Consultancy</h3>
+    <p><strong>2022 - 2023</strong></p>
+    <ul>
+      <li>Maintained accurate financial records, vouchers, and accounting documentation.</li>
+      <li>Processed daily financial transactions including cash handling, invoices, and payments.</li>
+      <li>Prepared basic financial reports, expense summaries, and budget tracking sheets.</li>
+      <li>Performed bank reconciliation and ensured accuracy of financial data.</li>
+      <li>Managed petty cash and controlled daily office expenses.</li>
+      <li>Assisted in procurement activities including RFQs, purchase orders, and vendor coordination.</li>
+      <li>Verified invoices and supported timely payment processing to suppliers.</li>
+      <li>Maintained proper filing system for financial and accounting records.</li>
+      <li>Ensured compliance with organizational financial policies and procedures.</li>
+      <li>Supported finance team in daily administrative and reporting tasks.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Finance Officer – HADAAF Organization</h3>
+    <p><strong>2021 - 2022</strong></p>
+    <ul>
+      <li>Prepared and maintained financial reports, invoices, and supporting documents for audits and internal reviews.</li>
+      <li>Processed cash transactions, vouchers, and bank reconciliations.</li>
+      <li>Managed day-to-day operational expenses and cash handling activities.</li>
+      <li>Maintained proper filing systems for financial and administrative documents.</li>
+      <li>Coordinated administrative tasks including logistics, procurement, and inventory management.</li>
+      <li>Provided training to project staff on financial procedures and reporting guidelines.</li>
+      <li>Reported daily data entry status to supervisor.</li>
+      <li>Prepared financial statements including Trial Balance, Income Statement, Balance Sheet, and Cash Flow Statement.</li>
+      <li>Assisted in preparing Requests for Quotations (RFQs) and Purchase Orders (POs).</li>
+      <li>Helped maintain procurement records and supplier contact lists.</li>
+      <li>Supported bid analysis and price comparison.</li>
+      <li>Communicated with vendors to confirm order details and delivery timelines.</li>
+      <li>Maintained organized records of supplier contracts, invoices, and procurement documents.</li>
+      <li>Participated in daily operational tasks, including transaction monitoring and reporting.</li>
+      <li>Recorded day-to-day financial transactions accurately.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <ul>
+      <li>Bachelor’s Degree (BBA) – In Progress</li>
+      <li>High School Diploma – Nasrat High School, 2020</li>
+      <li>Diploma in English Language – Shahen Institute, 2018</li>
+      <li>Diploma in Computer Programs – Shahen Institute, 2019</li>
+    </ul>
+  </div>
+</section>
+
+<section id="training">
+  <h2>Training Certificates</h2>
+  <div class="card">
+    <ul>
+      <li>QuickBooks Training – Tagheer Mosbat Consultancy</li>
+      <li>Experience Letter – HADAAF Organization</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card contact-box">
+    <p><strong>Email:</strong> Aliahmadikhan22876</p>
+    <p><strong>Phone:</strong> 0786544611</p>
+    <a href="#" class="btn">Download CV</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Ali Ahmadi | Finance Officer Portfolio</p>
+</footer>
+
+</body>
+</html>
